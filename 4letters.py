@@ -3,7 +3,9 @@ import time
 from pytesser3 import *
 from PIL import Image
 
+
 def findword(letters, exceptionwords):
+    # all 4 letter words in scrabble.txt
     f = open("scrabble.txt", "r")
     filetext = f.read()
     #print(filetext)
